@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "subqubo-hybrid-annealing-algorithm"
+version = "0.1.0"
+description = ""
+authors = ["Keisuke Fukada"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+numpy = "^1.24.3"
+ipykernel = "^6.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
